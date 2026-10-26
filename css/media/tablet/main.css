@@ -1,0 +1,359 @@
+.main{
+
+    .first{
+         width: 100%;
+    height: 560px;
+    background-color: #AFB2B4;
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #FBFBFB 0%, #D2D2D2 100%);
+    opacity: 1;
+    display: flex;
+   
+    justify-content: center;
+    align-items: end;
+    padding-bottom:35px;
+    gap: 20px;
+        
+  
+    
+    
+
+    .ax{
+        
+        display: flex;
+        justify-content: center;
+        animation-name: fadeInDown;
+        animation-duration: 1.25s;
+        
+        img{
+             width:330px;
+        height: 330px;
+        }
+       
+    }
+
+    .matn{
+        width:330px;
+        height: 330px;
+      
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        gap: 21px;
+       
+        animation-name: fadeInRight;
+        animation-duration: 2s;
+
+        .matn1{
+        color: red;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 30px;
+    font-weight: 400;
+    font-family: "IRANSansLight", Sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    }
+        .matn2{
+        color: #002021;
+    font-family: "IRANSansLight", Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    }
+
+    }
+    
+
+    }
+
+    .second{
+        width: 100%;
+        height: 485px;
+        margin-top: 75px;
+        
+        display: flex;
+        justify-content: center;
+
+        animation-name: fadeInRight;
+        animation-duration: 1.25s;
+
+        .second-in{
+            
+            width: 700px;
+            height: 485px;
+
+            .second-in-group{
+                padding: 10px;
+                display: flex;
+                width: 100%;
+                flex-wrap: wrap;
+                align-content: flex-start;
+
+                .second-in-group-1{
+                    background-color: #FBFBFB;
+                    width: 100%;
+                    margin-bottom: 21px;
+                    font-family: "IRANSansLight", Sans-serif;
+                    font-size: 20px;
+                    font-weight: bold;
+                    color: red;
+                }
+
+                .second-in-group-2{
+                    text-align: justify;
+                    color: #818588;
+                    font-family: "IRANSansLight", Sans-serif;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 35px;
+                    margin-bottom: 21px;
+                    width: 100%;
+                    background-color: #ffffff;
+                }
+
+                .second-in-group-3{
+                    text-align: justify;
+                    color: #818588;
+                    font-family: "IRANSansLight", Sans-serif;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 35px;
+                    margin-bottom: 21px;
+                    width: 100%;
+                    background-color: #ffffff;
+
+                    .second-in-group-3-in{
+                        color: red;
+                        font-weight: 900;
+                    }
+                }
+
+                .second-in-group-4{
+                    text-align: justify;
+                    color: #818588;
+                    font-family: "IRANSansLight", Sans-serif;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 35px;
+                    margin-bottom: 21px;
+                    width: 100%;
+                    background-color: #ffffff;
+                }
+            }
+        }
+    }
+
+    .third{
+        margin-top: 150px;
+        
+        width: 100%;
+        height: 357px;
+        display: flex;
+        justify-content: center;
+
+        .third-in{
+           
+            width: 700px;
+            height: 356.2px;
+            display: flex;
+
+            .third-in-right{
+                
+                width: 233.33px;
+                height: 356.2px;
+
+                .third-in-right-in{
+                    padding: 10px;
+                   
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    align-items: start;
+                    justify-content: center;
+
+                    .third-in-right-in-img{
+                        width: 213.33px;
+                        height: 213.33px;
+                    }
+
+                    .img14{
+                        width: 213.33px; height: 278.25px;
+                    }
+
+                    .img18{
+                        width: 230px; height: 200px;
+                    }
+
+                }
+            }
+
+            .third-in-left{
+              
+                width: 466.65px;
+                height: 356.2px;
+
+                .third-in-left-in{
+                    padding: 10px;
+                    display: flex;
+                    width: 100%;
+                    flex-wrap: wrap;
+                    align-content: flex-start;
+
+                    .third-in-left-in-1{
+                      
+                        width: 100%;
+                        height: 82px;
+                        padding: 10px;
+                        display: flex;
+                        flex-wrap: wrap;
+                        align-content: flex-start;
+
+                        .third-in-left-in-1-right{
+                            width: 69px;
+                            height: 62px;
+                        }
+
+                        .third-in-left-in-1-left{
+                           
+                            width: 178.74px;
+                            height: 22px;
+                            align-self: flex-end;
+                            margin-right: 15px;
+                            font-family: "IRANSansLight", Sans-serif;
+                            font-size: 22px;
+                            font-weight: 400;
+                            color: red;
+                            margin-bottom: 10px;
+                            width: fit-content;
+                            
+                        }
+                    }
+
+                    .third-in-left-in-2{
+                        border-style: solid;
+                        border-width: 1px 0px 1px 0px;
+                        border-color: #AAAAAA;
+                        width: 100%;
+                        height: 54.6px;
+                        
+                        display: flex;
+
+                        .third-in-left-in-2-right{
+                            width: 50%;
+                            height: 100%;
+                          
+                            padding: 10px;
+                            align-content: center;
+                            align-items: center;
+                            color: #52575B;
+                            font-family: "IRANSansLight", Sans-serif;
+                            font-size: 16px;
+                            font-weight: 700;
+                        }
+
+                        .third-in-left-in-2-left{
+                            width: 50%;
+                            height: 100%;
+                            
+                            display: flex;
+                            justify-content: flex-end;
+                            padding: 4px 0px 4px 0px;
+                            flex-wrap: wrap;
+                            align-content: flex-start;
+
+                            .third-in-left-in-2-left-225{
+                                margin: 0px 4px;
+                            }
+                            .mr4{
+                                margin-right: 4px;
+                            }
+
+                            .ml4{
+                                margin-left: 4px;
+                            }
+                        }
+                    }
+
+                    .third-in-left-in-3{
+                        width: 100%;
+                        height: 121px;
+                        margin-bottom: 21px;
+                        text-align: justify;
+                        color: #94979A;
+                        font-family: "IRANSansLight", Sans-serif;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 35px;
+                        margin-top: 16px;
+                        height: fit-content;
+                    }
+                    .third-in-left-in-4{
+                        width: 100%;
+                        
+                       
+                        display: flex;
+                       
+    
+
+
+                        .third-in-left-in-4-buy{
+                            width: 129.95px;
+                            height: 42.6px;
+                            padding: 12px 24px 12px 24px;
+                            border:0.8px solid  #c8c8c8;
+                            text-decoration: none;
+
+
+                            font-family: "IRANSansLight", Sans-serif;
+                            font-size: 15px;
+                            font-weight: 300;
+                            line-height: 17px;
+                            
+                            fill: #7C7D7E;
+                            color: #7C7D7E;
+                            background-color: #FFFFFF;
+                        
+                            border-radius: 8px;
+                            &:hover{
+                                background-color: red;
+                                color: white;
+                                border-color: red;
+                                transition: all .3s;
+                            }
+
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+
+    .mb55{
+        margin-bottom: 55px;
+    }
+   
+}  
+
+
+@keyframes fadeInRight {
+    0%{
+        opacity: 0;
+        transform: translate3d(100%,0,0);
+    }
+    100%{
+        opacity: 1;
+        transform: none;
+    }
+}
+
+@keyframes fadeInDown {
+    0%{
+        opacity: 0;
+        transform: translate3d(0,-100%,0);
+    }
+    100%{
+        opacity: 1;
+        transform: none;
+    }
+}

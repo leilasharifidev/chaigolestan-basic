@@ -1,0 +1,278 @@
+body{
+   
+    box-sizing: border-box;
+}
+.header{
+        width: 100%;
+        height: 168.5px;
+        background-color: #232222;
+      
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+        flex-direction: column;
+       
+        justify-content: end;
+        
+        .logo{
+            width: 170px;
+            height: 105px;
+            margin: 0px 48.075px;
+            
+            top: 15px;
+            
+            
+            
+        }
+        .ham-whole{
+
+            
+            width: 100%;
+            padding: 8px 18px 0px 8px;
+             .ham{
+                
+            width: 52px;
+            height: 52px;
+            color: #AFB2B4;
+            display: flex;
+
+            &:hover {
+                color: white;
+            }
+          
+        }
+        }
+       
+       .menu{
+            background-color: #313030;
+            display: flex;
+            align-items: center;
+            justify-content: right;
+            position: fixed;
+          flex-direction: column;
+            width: 100%;
+            height: 406px;
+            
+            flex-wrap: wrap;
+top: 165px;
+
+            display: none;
+            align-content: flex-start;
+            padding: 10px;
+            border: 10px solid #232222;
+            border-right:15px solid #232222;
+
+            .dropdown-sherkatgolestan{
+
+                 .line-menu-in{
+
+            .arrowdown-in-header{
+                rotate: 180deg;
+                margin-right: 6px;
+                 font-weight: 900;
+                  font-size: 20px;
+                   position: relative;
+                    bottom: -5px;
+            }
+
+           
+
+                }
+
+                 .dropdown1{
+                    width: 193.74px;
+                    height: fit-content;
+                    background-color: #313030;
+                    position: absolute;
+                    top: 55px;
+                    right: 117px;
+                    display: none;
+                    flex-flow: column;
+                }
+
+                &:hover .dropdown1{
+                    display: flex;
+                    display: none;
+                }
+
+
+            }
+
+            .dropdown-mahsoulat{
+
+                 .line-menu-in{
+
+            .arrowdown-in-header{
+                rotate: 180deg;
+                margin-right: 6px;
+                 font-weight: 900;
+                  font-size: 20px;
+                   position: relative;
+                    bottom: -5px;
+            }
+
+           
+
+                }
+
+                 .dropdown2{
+                    width: 193.74px;
+                    height: fit-content;
+                    background-color: #313030;
+                    position: absolute;
+                    top: 55px;
+                    right: 257px;
+                    display: none;
+                    flex-flow: column;
+                }
+
+                &:hover .dropdown2{
+                    display: flex;
+                    display: none;
+                }
+
+
+            }
+
+            .dropdown-wblog{
+
+                 .line-menu-in{
+
+            .arrowdown-in-header{
+                rotate: 180deg;
+                margin-right: 6px;
+                 font-weight: 900;
+                  font-size: 20px;
+                   position: relative;
+                    bottom: -5px;
+            }
+
+           
+
+                }
+
+                 .dropdown3{
+                    width: 193.74px;
+                    height: fit-content;
+                    background-color: #313030;
+                    position: absolute;
+                    top: 55px;
+                    right: 377px;
+                    display: none;
+                    flex-flow: column;
+                }
+
+                &:hover .dropdown3{
+                    display: flex;
+                    display: none;
+                }
+
+
+            }
+
+            .dropdown-tamasbama{
+
+                 .line-menu-in{
+
+            .arrowdown-in-header{
+                rotate: 180deg;
+                margin-right: 6px;
+                 font-weight: 900;
+                  font-size: 20px;
+                   position: relative;
+                    bottom: -5px;
+            }
+
+           
+
+                }
+
+                 .dropdown4{
+                    width: 193.74px;
+                    height: fit-content;
+                    background-color: #313030;
+                    position: absolute;
+                    top: 55px;
+                    right: 670px;
+                    display: none;
+                    flex-flow: column;
+                }
+
+                &:hover .dropdown4{
+                    display: flex;
+                    display: none;
+                    
+                }
+
+
+            }
+
+            
+
+           a{
+            color: #AFB2B4;
+            text-decoration: none;
+            padding: 12px 15px 12px 15px;
+            text-align: right;
+            font-size: 16px;
+            font-family: "IRANSansLight", Sans-serif;
+            font-size: 16px;
+            text-decoration: none;
+            display: flex;
+            height: 45px;
+
+            &:hover{
+                color: white;
+                transition: all 500ms;
+            }
+
+           
+
+           }
+
+           .line-menu-in{
+
+            .arrowdown-in-header{
+                rotate: 180deg;
+                margin-right: 6px;
+                 font-weight: 900;
+                  font-size: 20px;
+                   position: relative;
+                    bottom: 5px;
+            }
+
+           
+
+           }
+
+          
+
+
+          
+
+           
+
+           .line-menu{
+            width: 0.8px;
+            height: 30px;
+            background-color:#5f5f5f;
+            display: flex;
+            align-items: end;
+            justify-content: center;
+            display: none;
+           }
+            
+           
+        }
+
+        .ham-whole {
+            &:hover ~ .menu{
+                display: none;
+               
+
+            }
+        }
+    }
+
+    

@@ -1,0 +1,827 @@
+.main{
+
+    .first{
+         width: 100%;
+    height: 565px;
+    background-color: #AFB2B4;
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #FBFBFB 0%, #D2D2D2 100%);
+    opacity: 1;
+    display: flex;
+   
+    justify-content: center;
+    align-items: end;
+    padding-bottom:35px;
+    gap: 170px;
+        
+  
+    
+    
+
+    .ax{
+        
+        display: flex;
+        justify-content: flex-end;
+        animation-name: fadeInDown;
+        animation-duration: 1.25s;
+        
+        img{
+             width:350px;
+        height: 400px;
+        }
+       
+    }
+
+    .matn{
+        width:330px;
+        height: 330px;
+      
+        display: flex;
+        justify-content: right;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 2px;
+        margin-left: -130px;
+       
+        animation-name: fadeInRight;
+        animation-duration: 2s;
+
+        .matn1{
+        color: red;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 30px;
+    font-weight: 400;
+    font-family: "IRANSansLight", Sans-serif;
+    font-size: 32px;
+    font-weight: 900;
+    }
+        .matn2{
+            width: 450px;
+        color: #002021;
+    font-family: "IRANSansLight", Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+
+    color: #898989;
+    font-family: "Roboto", Sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-decoration: none;
+    line-height: 34px;
+
+    }
+     .read-more{
+                        width: 100%;
+                        
+                       
+                        display: flex;
+                       margin-top: 16px;
+    
+
+
+                        .read-more-in{
+                            width: 129.95px;
+                            height: 42.6px;
+                            padding: 12px 24px 12px 24px;
+                            border:0.8px solid  #c8c8c8;
+                            text-decoration: none;
+
+
+                            font-family: "IRANSansLight", Sans-serif;
+                            font-size: 15px;
+                            font-weight: 300;
+                            line-height: 17px;
+                            
+                            fill: #7C7D7E;
+                            color: #7C7D7E;
+                            background-color: #FFFFFF;
+                        
+                            border-radius: 8px;
+                            &:hover{
+                                background-color: red;
+                                color: white;
+                                border-color: red;
+                                transition: all .3s;
+                            }
+
+                        }
+                    }
+
+    }
+    
+
+    }
+
+    .hr-en{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .second{
+        width: 100%;
+        height: 210px;
+        
+        
+        display: flex;
+        justify-content: center;
+
+        animation-name: fadeInRight;
+        animation-duration: 1.25s;
+
+        .second-in{
+            
+            width: 700px;
+            height: 210px;
+
+            .second-in-group{
+                padding: 10px;
+                display: flex;
+                width: 100%;
+                flex-wrap: wrap;
+                align-content: flex-start;
+
+                .second-in-group-1{
+                    background-color: #ffffff;
+                    width: 100%;
+                    margin-bottom: 18px;
+                    margin-left: 10px;
+                    font-family: "IRANSansLight", Sans-serif;
+                    font-size: 20px;
+                    font-weight: bold;
+                    color: red;
+                }
+
+                .second-in-group-2{
+                    text-align: justify;
+                    color: #818588;
+                    font-family: "IRANSansLight", Sans-serif;
+                    font-size: 16px;
+                    font-weight: 600;
+                    line-height: 35px;
+                    margin-bottom: 21px;
+                    width: 100%;
+                    background-color: #ffffff;
+                    margin-left: 10px;
+                }
+
+               
+            }
+        }
+    }
+
+    .third{
+        margin-top: 105px;
+        margin-bottom: 105px;
+        width: 100%;
+        height: 357px;
+        display: flex;
+        justify-content: center;
+       
+        align-content: center;
+        align-items: center;
+        
+       
+
+        .third-in{
+          
+            width: 821px;
+            height: 248.05px;
+            display: flex;
+            padding: 10px;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+
+            .third-in-item1{
+                padding: 10px;
+                width:100%;
+                height: 100%;
+                margin-right: -15px;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: center;
+
+                .third-in-item1-ax{
+                    width: 100%;
+                    height: 100%;
+                    padding: 10px;
+                   
+                   img{
+                     width: 185.25px;
+                     height: 185.25px;
+                   }
+                }
+
+                .third-in-item1-matn{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    
+                }
+
+                .third-in-item1-hr{
+                    margin-top: 10px;
+                    width: 175.25px;
+
+                   
+                }
+
+
+            }
+            
+        }
+
+       
+    }
+
+   .fourth{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    
+
+    .fourth-img{
+        width: 100%;
+        height: 490px;
+
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .fourth-line{
+        width: 100%;
+        height: 20px;
+        background-color: #E9D69F;
+    }
+
+    .fourth-rice{
+        position: absolute;
+        width: 325px;
+        height: 115px;
+        background-color: #ED1C24;
+        left: 394px;
+        top: 1800px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        z-index: 1;
+
+        .fourth-rice-matn{
+            padding-left: 25px;
+            font-size: 35px;
+            font-weight: 900;
+            color: #ffffff;
+        }
+    }
+
+    .hr-en{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .second{
+        width: 100%;
+        height: 210px;
+        
+        
+        display: flex;
+        justify-content: center;
+
+        animation-name: fadeInRight;
+        animation-duration: 1.25s;
+        margin-bottom: 30px;
+        .second-in{
+            
+            width: 700px;
+            height: 210px;
+
+            .second-in-group{
+                padding: 10px;
+                display: flex;
+                width: 100%;
+                flex-wrap: wrap;
+                align-content: flex-start;
+
+                .second-in-group-1{
+                    background-color: #ffffff;
+                    width: 100%;
+                    margin-bottom: 18px;
+                    margin-left: 10px;
+                    font-family: "IRANSansLight", Sans-serif;
+                    font-size: 20px;
+                    font-weight: bold;
+                    color: red;
+                }
+
+                .second-in-group-2{
+                    text-align: justify;
+                    color: #818588;
+                    font-family: "IRANSansLight", Sans-serif;
+                    font-size: 16px;
+                    font-weight: 600;
+                    line-height: 35px;
+                    margin-bottom: 21px;
+                    width: 100%;
+                    background-color: #ffffff;
+                    margin-left: 10px;
+                }
+
+               
+            }
+        }
+    }
+
+    .read-more{
+                        width: 100%;
+                        
+                       
+                        display: flex;
+                       margin-top: 16px;
+    padding-left: 425px;
+margin-bottom: 10px;
+
+                        .read-more-in{
+                            width: 129.95px;
+                            height: 42.6px;
+                            padding: 12px 24px 12px 24px;
+                            border:0.8px solid  #c8c8c8;
+                            text-decoration: none;
+
+
+                            font-family: "IRANSansLight", Sans-serif;
+                            font-size: 15px;
+                            font-weight: 300;
+                            line-height: 17px;
+                            
+                            fill: #7C7D7E;
+                            color: #7C7D7E;
+                            background-color: #FFFFFF;
+                        
+                            border-radius: 8px;
+                            &:hover{
+                                background-color: red;
+                                color: white;
+                                border-color: red;
+                                transition: all .3s;
+                            }
+
+                        }
+                    }
+
+   }
+
+   .fifth{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    
+
+    .fifth-img{
+        width: 100%;
+        height: 490px;
+margin-top: 75px;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .fifth-line{
+        width: 100%;
+        height: 20px;
+        background-color: #E9D69F;
+    }
+
+    .fifth-tea{
+        position: absolute;
+        width: 325px;
+        height: 115px;
+        background-color: #ED1C24;
+        left: 394px;
+        top: 2755px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        z-index: 1;
+
+        .fifth-tea-matn{
+            padding-left: 25px;
+            font-size: 35px;
+            font-weight: 900;
+            color: #ffffff;
+        }
+    }
+
+    .hr-en{
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    .second{
+        width: 100%;
+        height: fit-content;
+        
+        
+        display: flex;
+        justify-content: center;
+
+        animation-name: fadeInRight;
+        animation-duration: 1.25s;
+        margin-bottom: 30px;
+        .second-in{
+            
+            width: 700px;
+            height: fit-content;
+
+            .second-in-group{
+                padding: 10px;
+                display: flex;
+                width: 100%;
+                flex-wrap: wrap;
+                align-content: flex-start;
+
+                .second-in-group-1{
+                    background-color: #ffffff;
+                    width: 100%;
+                    margin-bottom: 18px;
+                    margin-left: 10px;
+                    font-family: "IRANSansLight", Sans-serif;
+                    font-size: 20px;
+                    font-weight: bold;
+                    color: red;
+                }
+
+                .second-in-group-2{
+                    text-align: justify;
+                    color: #818588;
+                    font-family: "IRANSansLight", Sans-serif;
+                    font-size: 16px;
+                    font-weight: 600;
+                    line-height: 35px;
+                    margin-bottom: 21px;
+                    width: 100%;
+                    background-color: #ffffff;
+                    margin-left: 10px;
+                }
+
+               
+            }
+        }
+    }
+
+    .read-more{
+                        width: 100%;
+                        
+                       
+                        display: flex;
+                       margin-top: 16px;
+    padding-left: 425px;
+margin-bottom: 10px;
+
+                        .read-more-in{
+                            width: 129.95px;
+                            height: 42.6px;
+                            padding: 12px 24px 12px 24px;
+                            border:0.8px solid  #c8c8c8;
+                            text-decoration: none;
+
+
+                            font-family: "IRANSansLight", Sans-serif;
+                            font-size: 15px;
+                            font-weight: 300;
+                            line-height: 17px;
+                            
+                            fill: #7C7D7E;
+                            color: #7C7D7E;
+                            background-color: #FFFFFF;
+                        
+                            border-radius: 8px;
+                            &:hover{
+                                background-color: red;
+                                color: white;
+                                border-color: red;
+                                transition: all .3s;
+                            }
+
+                        }
+                    }
+
+   }
+
+   .sixth{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 220px;
+    
+
+    .fifth-img{
+        width: 100%;
+        height: 490px;
+margin-top: 75px;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .fifth-line{
+        width: 100%;
+        height: 20px;
+        background-color: #E9D69F;
+    }
+
+    .fifth-tea{
+        position: absolute;
+        width: 325px;
+        height: 115px;
+        background-color: #ED1C24;
+        left: 394px;
+        top: 3660px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        z-index: 1;
+
+        .fifth-tea-matn{
+            padding-left: 25px;
+            font-size: 35px;
+            font-weight: 900;
+            color: #ffffff;
+        }
+    }
+
+    .hr-en{
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    .second{
+        width: 100%;
+        height: fit-content;
+        
+        
+        display: flex;
+        justify-content: center;
+
+        animation-name: fadeInRight;
+        animation-duration: 1.25s;
+        margin-bottom: 30px;
+        .second-in{
+            
+            width: 700px;
+            height: fit-content;
+
+            .second-in-group{
+                padding: 10px;
+                display: flex;
+                width: 100%;
+                flex-wrap: wrap;
+                align-content: flex-start;
+
+                .second-in-group-1{
+                    background-color: #ffffff;
+                    width: 100%;
+                    margin-bottom: 18px;
+                    margin-left: 10px;
+                    font-family: "IRANSansLight", Sans-serif;
+                    font-size: 20px;
+                    font-weight: bold;
+                    color: red;
+                }
+
+                .second-in-group-2{
+                    text-align: justify;
+                    color: #818588;
+                    font-family: "IRANSansLight", Sans-serif;
+                    font-size: 16px;
+                    font-weight: 600;
+                    line-height: 35px;
+                    margin-bottom: 21px;
+                    width: 100%;
+                    background-color: #ffffff;
+                    margin-left: 10px;
+                }
+
+               
+            }
+        }
+    }
+
+    .read-more{
+                        width: 100%;
+                        
+                       
+                        display: flex;
+                       margin-top: 16px;
+    padding-left: 425px;
+margin-bottom: 10px;
+
+                        .read-more-in{
+                            width: 129.95px;
+                            height: 42.6px;
+                            padding: 12px 24px 12px 24px;
+                            border:0.8px solid  #c8c8c8;
+                            text-decoration: none;
+
+
+                            font-family: "IRANSansLight", Sans-serif;
+                            font-size: 15px;
+                            font-weight: 300;
+                            line-height: 17px;
+                            
+                            fill: #7C7D7E;
+                            color: #7C7D7E;
+                            background-color: #FFFFFF;
+                        
+                            border-radius: 8px;
+                            &:hover{
+                                background-color: red;
+                                color: white;
+                                border-color: red;
+                                transition: all .3s;
+                            }
+
+                        }
+                    }
+
+   }
+   
+   .seventh{
+    width: 100%;
+    height: 300px;
+    background-color: #105153;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 20px;
+    gap: 6px;
+    .seventh-matn1{
+        font-family: IRANSansLight;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-weight: 400;
+    color: #009da2;
+    font-size: 30px;
+    
+    }
+    .seventh-matn2{
+        font-family: IRANSansLight;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-weight: 400;
+    text-align: center;
+    color: #00d8df;
+    font-size: 20px;
+    }
+   }
+   
+   .eighth{
+    width: 100%;
+    background-color: #00d8df;
+    
+    height: 1px;
+   }
+
+   .nineth{
+    width: 100%;
+    height: 300px;
+    background-color: #105153;
+
+    .nineth-img{
+        position: absolute;
+        left: 565px;
+        top: 4750px;
+    }
+    
+   }
+
+   .tenth{
+        width: 100%;
+        height: 20px;
+        background-color: #E9D69F;
+    }
+
+    .eleventh{
+        width: 100%;
+        height: 20px;
+        background-color: white;
+    }
+
+    .twelfth{
+        width: 100%;
+        height: 242.6px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+         .twelfth-in{
+            
+            width: 700px;
+            height: 210px;
+
+            .twelfth-in-group{
+                padding: 10px;
+                display: flex;
+                width: 100%;
+                flex-wrap: wrap;
+                align-content: flex-start;
+
+                .twelfth-in-group-1{
+                    background-color: #ffffff;
+                    width: 100%;
+                    margin-bottom: 18px;
+                    margin-left: 10px;
+                    font-family: "IRANSansLight", Sans-serif;
+                    font-size: 20px;
+                    font-weight: bold;
+                    color: red;
+                }
+
+                .twelfth-in-group-2{
+                    text-align: justify;
+                    color: #818588;
+                    font-family: "IRANSansLight", Sans-serif;
+                    font-size: 16px;
+                    font-weight: 600;
+                    line-height: 35px;
+                    margin-bottom: 21px;
+                    width: 100%;
+                    background-color: #ffffff;
+                    margin-left: 10px;
+                }
+
+                .read-more{
+                        width: 100%;
+                        
+                       
+                        display: flex;
+                       margin-top: 16px;
+    
+
+
+                        .read-more-in{
+                            width: 129.95px;
+                            height: 42.6px;
+                            padding: 12px 24px 12px 24px;
+                            border:0.8px solid  #c8c8c8;
+                            text-decoration: none;
+
+
+                            font-family: "IRANSansLight", Sans-serif;
+                            font-size: 15px;
+                            font-weight: 300;
+                            line-height: 17px;
+                            
+                            fill: #7C7D7E;
+                            color: #7C7D7E;
+                            background-color: #FFFFFF;
+                        
+                            border-radius: 8px;
+                            &:hover{
+                                background-color: red;
+                                color: white;
+                                border-color: red;
+                                transition: all .3s;
+                            }
+
+                        }
+                    }
+
+               
+            }
+        }
+    }
+}  
+
+
+@keyframes fadeInRight {
+    0%{
+        opacity: 0;
+        transform: translate3d(100%,0,0);
+    }
+    100%{
+        opacity: 1;
+        transform: none;
+    }
+}
+
+@keyframes fadeInDown {
+    0%{
+        opacity: 0;
+        transform: translate3d(0,-100%,0);
+    }
+    100%{
+        opacity: 1;
+        transform: none;
+    }
+}

@@ -1,0 +1,237 @@
+.header{
+        width: 100%;
+        height: 168.5px;
+        background-color: #232222;
+      
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position:fixed;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: end;
+        
+        .logo{
+            width: 170px;
+            height: 105px;
+            margin: 0px 48.075px;
+            position: fixed;
+            top: 15px;
+            
+            
+            
+        }
+
+         .ham-whole{
+            display: none;
+        }
+        .menu{
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: fixed;
+          
+            width: fit-content;
+            height: 46px;
+            margin-left: auto;
+            margin-right: auto;
+            flex-wrap: wrap;
+
+            .dropdown-sherkatgolestan{
+
+                 .line-menu-in{
+
+            .arrowdown-in-header{
+                rotate: 180deg;
+                margin-right: 6px;
+                 font-weight: 900;
+                  font-size: 20px;
+                   position: relative;
+                    bottom: 5px;
+            }
+
+           
+
+                }
+
+                 .dropdown1{
+                    width: 193.74px;
+                    height: fit-content;
+                    background-color: #313030;
+                    position: absolute;
+                    top: 55px;
+                    right: 117px;
+                    display: none;
+                    flex-flow: column;
+                }
+
+                &:hover .dropdown1{
+                    display: flex;
+                }
+
+
+            }
+
+            .dropdown-mahsoulat{
+
+                 .line-menu-in{
+
+            .arrowdown-in-header{
+                rotate: 180deg;
+                margin-right: 6px;
+                 font-weight: 900;
+                  font-size: 20px;
+                   position: relative;
+                    bottom: 5px;
+            }
+
+           
+
+                }
+
+                 .dropdown2{
+                    width: 193.74px;
+                    height: fit-content;
+                    background-color: #313030;
+                    position: absolute;
+                    top: 55px;
+                    right: 257px;
+                    display: none;
+                    flex-flow: column;
+                }
+
+                &:hover .dropdown2{
+                    display: flex;
+                }
+
+
+            }
+
+            .dropdown-wblog{
+
+                 .line-menu-in{
+
+            .arrowdown-in-header{
+                rotate: 180deg;
+                margin-right: 6px;
+                 font-weight: 900;
+                  font-size: 20px;
+                   position: relative;
+                    bottom: 5px;
+            }
+
+           
+
+                }
+
+                 .dropdown3{
+                    width: 193.74px;
+                    height: fit-content;
+                    background-color: #313030;
+                    position: absolute;
+                    top: 55px;
+                    right: 377px;
+                    display: none;
+                    flex-flow: column;
+                }
+
+                &:hover .dropdown3{
+                    display: flex;
+                }
+
+
+            }
+
+            .dropdown-tamasbama{
+
+                 .line-menu-in{
+
+            .arrowdown-in-header{
+                rotate: 180deg;
+                margin-right: 6px;
+                 font-weight: 900;
+                  font-size: 20px;
+                   position: relative;
+                    bottom: 5px;
+            }
+
+           
+
+                }
+
+                 .dropdown4{
+                    width: 193.74px;
+                    height: fit-content;
+                    background-color: #313030;
+                    position: absolute;
+                    top: 55px;
+                    right: 670px;
+                    display: none;
+                    flex-flow: column;
+                }
+
+                &:hover .dropdown4{
+                    display: flex;
+                    
+                }
+
+
+            }
+
+            
+
+           a{
+            color: #AFB2B4;
+            text-decoration: none;
+            padding: 13px 11px 13px 11px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 16px;
+            font-family: "IRANSansLight", Sans-serif;
+            font-size: 16px;
+            text-decoration: none;
+            display: flex;
+
+            &:hover{
+                color: white;
+                transition: all 500ms;
+            }
+
+           
+
+           }
+
+           .line-menu-in{
+
+            .arrowdown-in-header{
+                rotate: 180deg;
+                margin-right: 6px;
+                 font-weight: 900;
+                  font-size: 20px;
+                   position: relative;
+                    bottom: 5px;
+            }
+
+           
+
+           }
+
+          
+
+
+          
+
+           
+
+           .line-menu{
+            width: 0.8px;
+            height: 30px;
+            background-color:#5f5f5f;
+            display: flex;
+            align-items: end;
+            justify-content: center;
+           }
+            
+           
+        }
+    }

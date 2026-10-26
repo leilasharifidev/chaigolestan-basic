@@ -1,0 +1,14 @@
+@import "../../setting.css";
+@import "./header-en.css";
+@import "./main-en.css";
+@import "./footer-en.css";
+
+
+
+html, body {
+    overflow-x: hidden;   
+}
+
+
+
+
